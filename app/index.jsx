@@ -6,7 +6,7 @@ export default function App() {
     <View>
       <View>
         <Text className="text-xl" style={gStyle.text}>Hello World</Text>
-        <Text className="font-textSecurityDisk">This is the first page of your app.</Text>
+        <Text style={styles.title}>This is the first page of your app.</Text>
       </View>
     </View>
   );
@@ -25,8 +25,9 @@ const styles = StyleSheet.create({
     marginHorizontal: "auto",
   },
   title: {
-    fontSize: 64,
-    fontWeight: "bold",
+    // fontSize: 64,
+    // fontWeight: "bold",
+    fontFamily: 'Aventa-Regular'
   },
   subtitle: {
     fontSize: 36,
