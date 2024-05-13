@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from "react-native";
+import {gStyle} from './styles/global';
 
 export default function App() {
   return (
     <View>
       <View>
-        <Text className="text-xl">Hello World</Text>
+        <Text className="text-xl" style={gStyle.text}>Hello World</Text>
         <Text className="font-textSecurityDisk">This is the first page of your app.</Text>
       </View>
     </View>
