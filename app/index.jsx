@@ -1,12 +1,13 @@
 import { StyleSheet, Text, View } from "react-native";
 import {gStyle} from './styles/global';
+import {fonts} from './styles/fonts';
 
 export default function App() {
   return (
     <View>
       <View>
         <Text className="text-xl" style={gStyle.text}>Hello World</Text>
-        <Text style={styles.title}>This is the first page of your app.</Text>
+        <Text style={fonts.aventaRegular}>This is the first page of your app.</Text>
       </View>
     </View>
   );
@@ -25,8 +26,8 @@ const styles = StyleSheet.create({
     marginHorizontal: "auto",
   },
   title: {
-    // fontSize: 64,
-    // fontWeight: "bold",
+    fontSize: 64,
+    fontWeight: "bold",
     fontFamily: 'Aventa-Regular'
   },
   subtitle: {

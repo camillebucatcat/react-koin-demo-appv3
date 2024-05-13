@@ -13,7 +13,7 @@ module.exports = {
         brandonMedium:["Brandon-Medium", "sans-serif"], //500
         brandonBlack:["Brandon-Black", "sans-serif"],  //800
 
-        syneSemiBold:["Syne-SemiBold", "sans-serif"],
+        syneSemiBold:["Syne-SemiBold", "sans-serif"], //600
         textSecurityDisk:["text-security-disc", "sans-serif"]
       } 
     },
