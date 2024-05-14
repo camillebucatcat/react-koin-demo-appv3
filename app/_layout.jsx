@@ -31,9 +31,21 @@ const RootLayout = () => {
   }
   
   return (
-    <Stack>
-      <Stack.Screen name="index" options={{headerShown: false}}/>
-    </Stack>
+    <Stack
+      screenOptions={{
+        headerShown: false,
+
+        headerStyle:{
+          backgroundColor: '#F2F6F6',
+        },
+        headerShadowVisible: false,
+        contentStyle:{
+          backgroundColor: '#F2F6F6',
+          paddingTop: 16,
+          paddingHorizontal: 24
+        }
+      }}
+    />
   )
 }
 
