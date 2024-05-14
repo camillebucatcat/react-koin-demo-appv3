@@ -6,8 +6,13 @@ export default function App() {
   return (
     <View>
       <View>
+<<<<<<< Updated upstream
         <Text className="text-xl" style={gStyle.text}>Hello World</Text>
         <Text style={fonts.aventaRegular}>This is the first page of your app.</Text>
+=======
+        <Text className="text-xl" style={gStyle.text} style={gStyle.text}>Hello World</Text>
+        <Text className="font-textSecurityDisk">This is the first page of your app.</Text>
+>>>>>>> Stashed changes
       </View>
     </View>
   );
